@@ -1,11 +1,10 @@
 @font-face {
   font-family: "Simplon Mono";
-  src: url("/argentcreative/SimplonMono-Bold.eot");
-  src: url("/argentcreative/SimplonMono-Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("/argentcreative/SimplonMono-Bold.woff2") format("woff2"),
-    url("/argentcreative/SimplonMono-Bold.woff") format("woff"),
-    url("/argentcreative/SimplonMono-Bold.ttf") format("truetype");
+  src: url("./SimplonMono-Bold.eot");
+  src: url("./SimplonMono-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./SimplonMono-Bold.woff2") format("woff2"),
+    url("./SimplonMono-Bold.woff") format("woff"),
+    url("./SimplonMono-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -13,12 +12,11 @@
 
 @font-face {
   font-family: "Lausanne";
-  src: url("/argentcreative/Lausanne-Regular.eot");
-  src: url("/argentcreative/Lausanne-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("/argentcreative/Lausanne-Regular.woff2") format("woff2"),
-    url("/argentcreative/Lausanne-Regular.woff") format("woff"),
-    url("/argentcreative/Lausanne-Regular.ttf") format("truetype");
+  src: url("./Lausanne-Regular.eot");
+  src: url("./Lausanne-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./Lausanne-Regular.woff2") format("woff2"),
+    url("./Lausanne-Regular.woff") format("woff"),
+    url("./Lausanne-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
