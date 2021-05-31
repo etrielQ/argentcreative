@@ -1,0 +1,45 @@
+{
+  "name": "parcel-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "watch": "parcel watch src/scss/**/**/*.scss",
+    "dev": "parcel src/views/pages/*.pug --no-source-maps",
+    "build": "parcel build src/views/pages/*.pug --no-cache --no-cache --no-minify --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "pug": "^3.0.2",
+    "sass": "^1.32.12"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "parcel-plugin-custom-dist-structure": "^1.1.17",
+    "swiper": "^6.5.9"
+  },
+  "customDistStructure": {
+    "config": {
+      ".js": "js",
+      ".css": "css",
+      "images": [
+        ".jpg",
+        ".png",
+        ".svg"
+      ],
+      ".fileExtension": "folder/in/dist",
+      "folder/in/dist": [
+        ".file",
+        ".extensions"
+      ]
+    },
+    "options": {
+      "development": true
+    }
+  }
+}
